@@ -1,13 +1,13 @@
 require_relative "lib/full_system_control/version"
 
 Gem::Specification.new do |spec|
-  spec.name        = "full_system_control"
+  spec.name        = "et_full_system_control"
   spec.version     = FullSystemControl::VERSION
   spec.authors     = ["Gary Taylor"]
   spec.email       = ["gary.taylor@hismessages.com"]
   spec.homepage    = "https://github.com/hmcts/et-full-system-control"
-  spec.summary     = "Controls a service within the full system runtime environment"
-  spec.description = "Gives the developer control of the services running within invoker within the full system runtime environment"
+  spec.summary     = "Controls a service within the full system runtime environment for employment tribunals"
+  spec.description = "Gives the developer control of the services running within invoker within the full system runtime environment for employment tribunals"
   spec.license     = "MIT"
 
   spec.metadata["homepage_uri"] = spec.homepage
